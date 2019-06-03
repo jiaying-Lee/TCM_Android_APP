@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Diagnosis.ChoiceFootFragment">
+
+
+    <CheckBox
+        android:id="@+id/rb_foot_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:gravity="center_vertical"
+        android:text="穴位1"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <CheckBox
+        android:id="@+id/rb_foot_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@color/colorWhite"
+        android:gravity="center_vertical"
+        android:text="穴位2"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <CheckBox
+        android:id="@+id/rb_foot_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@color/colorWhite"
+        android:gravity="center_vertical"
+        android:text="穴位3"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <CheckBox
+        android:id="@+id/rb_foot_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@color/colorWhite"
+        android:gravity="center_vertical"
+        android:text="穴位4"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+</LinearLayout>

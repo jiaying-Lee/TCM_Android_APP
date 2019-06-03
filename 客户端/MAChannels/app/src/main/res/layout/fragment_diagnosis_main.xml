@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- 头颈 -->
+            <RelativeLayout
+                android:id="@+id/rll_head"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lightGray">
+
+                <ImageView
+                    android:id="@+id/iv_head"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/tv_head"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:layout_below="@+id/iv_head"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorWhite"/>
+
+            <!-- 心血管 -->
+            <RelativeLayout
+                android:id="@+id/rll_cardiovascular"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lightGray">
+
+                <ImageView
+                    android:id="@+id/iv_cardiovascular"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+                <TextView
+                    android:id="@+id/tv_cardiovascular"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:layout_below="@+id/iv_cardiovascular"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorWhite"/>
+
+            <!-- 呼吸 -->
+            <RelativeLayout
+                android:id="@+id/rll_respiratory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lightGray">
+
+                <ImageView
+                    android:id="@+id/iv_respiratory"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+                <TextView
+                    android:id="@+id/tv_respiratory"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:layout_below="@+id/iv_respiratory"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorWhite"/>
+
+            <!-- 胸部 -->
+            <RelativeLayout
+                android:id="@+id/rll_chest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lightGray">
+
+                <ImageView
+                    android:id="@+id/iv_chest"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+                <TextView
+                    android:id="@+id/tv_chest"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:layout_below="@+id/iv_chest"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorWhite"/>
+
+            <!-- 腹部 -->
+            <RelativeLayout
+                android:id="@+id/rll_abdomen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lightGray">
+
+                <ImageView
+                    android:id="@+id/iv_abdomen"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+                <TextView
+                    android:id="@+id/tv_abdomen"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:layout_below="@+id/iv_abdomen"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorWhite"/>
+
+
+
+            <!-- 泌尿生殖 -->
+            <RelativeLayout
+                android:id="@+id/rll_genitourinary"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lightGray">
+
+                <ImageView
+                    android:id="@+id/iv_genitourinary"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+                <TextView
+                    android:id="@+id/tv_genitourinary"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:layout_below="@+id/iv_genitourinary"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorWhite"/>
+
+
+
+            <!-- 骨骼 -->
+            <RelativeLayout
+                android:id="@+id/rll_skeletal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lightGray">
+
+                <ImageView
+                    android:id="@+id/iv_skeletal"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+                <TextView
+                    android:id="@+id/tv_skeletal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:layout_below="@+id/iv_skeletal"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorWhite"/>
+
+            <!-- 肌肉软组织 -->
+            <RelativeLayout
+                android:id="@+id/rll_muscle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lightGray">
+
+                <ImageView
+                    android:id="@+id/iv_muscle"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+                <TextView
+                    android:id="@+id/tv_muscle"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:layout_below="@+id/iv_muscle"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorWhite"/>
+
+            <!-- 神经 -->
+            <RelativeLayout
+                android:id="@+id/rll_neurologic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lightGray">
+
+                <ImageView
+                    android:id="@+id/iv_neurologic"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+                <TextView
+                    android:id="@+id/tv_neurologic"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:layout_below="@+id/iv_neurologic"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"/>
+            </RelativeLayout>
+
+            <!-- 背部穴位 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorWhite"/>
+
+            <!-- 手部穴位 -->
+
+            <!-- 脚部穴位 -->
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/lightGray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_choice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bt_navigation"
+            android:layout_weight="1">
+
+        </android.support.v4.view.ViewPager>
+
+        <Button
+            android:id="@+id/bt_diagnosis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="诊断"
+            android:textSize="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center_vertical|right"
+            android:layout_below="@+id/vp_diagnosis"
+            android:background="#c66c6c"/>
+    </LinearLayout>
+</LinearLayout>
